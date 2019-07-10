@@ -14,34 +14,20 @@ featuredimage: /img/products-grid2.jpg
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SQJ5gvU5WDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-```
-$response = curl_exec($curl);
-```
+# Code
 
 ```
-$err = curl_error($curl);
-```
-
-```
-curl_close($curl);
-```
-
-```
-if ($err) {
-```
-
-```
-  echo "cURL Error #:" . $err;
-```
-
-```
-} else {
-```
-
-```
-  echo $response;
-```
-
-```
+{
+  "remaining_balance":3.49211382,
+  "total_sms":1,
+  "phone_number_list":[
+    {
+      "number":"<YOUR_DESTINATION_PHONE_NUMBER>",
+      "message_id":"j9sPvkZrHFjFPH0p9UUXJM",
+      "price":0.0140625
+    }
+  ],
+  "bad_phone_number_list":[
+  ]
 }
 ```
