@@ -13,3 +13,35 @@ featuredimage: /img/products-grid2.jpg
 # Youtube
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SQJ5gvU5WDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+```
+$response = curl_exec($curl);
+```
+
+```
+$err = curl_error($curl);
+```
+
+```
+curl_close($curl);
+```
+
+```
+if ($err) {
+```
+
+```
+  echo "cURL Error #:" . $err;
+```
+
+```
+} else {
+```
+
+```
+  echo $response;
+```
+
+```
+}
+```
