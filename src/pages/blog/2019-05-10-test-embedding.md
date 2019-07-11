@@ -5,6 +5,9 @@ date: 2019-05-10T09:26:50.183Z
 description: Just testing
 featuredpost: true
 featuredimage: /img/products-grid2.jpg
+tags:
+  - tag1
+  - tag2
 ---
 # Github Gist
 
